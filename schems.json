@@ -1,0 +1,103 @@
+{
+
+	"authorization": {
+
+		"bcbsa_bcp_rtm_cg": {
+
+			"fg_groups": [
+
+				"rtm_chatinitr",
+
+				"rtm_chatrespdr",
+
+				"rtm_chatplncfgadmn",
+
+				"rtm_chatplnmgr",
+
+				"rtm_chattranscript",
+
+				"rtm_chatreport"
+
+			],
+
+			"claim": [
+
+				{
+
+					"codes": {
+
+						"control": [
+
+							{
+
+								"plan_code": "090",
+
+								"station_code": "AAAA"
+
+							},
+
+							{
+
+								"plan_code": "010",
+
+								"station_code": "AAAA"
+
+							},
+
+							{
+
+								"plan_code": "010",
+
+								"station_code": "BBBB"
+
+							}
+
+						],
+
+						"processing": [
+
+							{
+
+								"plan_code": "090",
+
+								"station_code": "AAAA"
+
+							},
+
+							{
+
+								"plan_code": "010",
+
+								"station_code": "AAAA"
+
+							},
+
+							{
+
+								"plan_code": "010",
+
+								"station_code": "BBBB"
+
+							}
+
+						]
+
+					},
+
+					"privacy": {},
+
+					"boid": "JAXA"
+
+				}
+
+			]
+
+		}
+
+	},
+
+	"version": "0.0.1",
+
+	"lh_code": "LH031"
+
+}
